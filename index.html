@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>MyPortfolio</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi, I'm a web developer specialized in creating beautiful and functional websites.</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hi! I'm a passionate web developer with experience in creating responsive and user-friendly websites. I specialize in front-end technologies and am always eager to learn and take on new challenges.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Responsive Design</li>
+                        <li>Version Control (Git)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project One</h3>
+                    <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+    
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Two</h3>
+                    <p>A dynamic web application using React and Node.js.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+    
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project Three</h3>
+                    <p>An e-commerce website built with modern JavaScript frameworks.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work together or just say hello, feel free to reach out via the form below or connect with me on social media.</p>
+    
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+    
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What People Are Saying</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"Working with [Your Name] was a fantastic experience. The project was delivered on time, and the results were outstanding. I highly recommend their services!"</p>
+                    <h3>John Doe</h3>
+                    <span>CEO, ExampleCorp</span>
+                </div>
+    
+                <div class="testimonial-card">
+                    <p>"[Your Name]'s attention to detail and creativity are impressive. They helped bring our vision to life in a way that exceeded our expectations!"</p>
+                    <h3>Jane Smith</h3>
+                    <span>Founder, StartupXYZ</span>
+                </div>
+    
+                <div class="testimonial-card">
+                    <p>"The communication throughout the project was excellent, and the final product was exactly what we needed. We look forward to working together again!"</p>
+                    <h3>Mike Johnson</h3>
+                    <span>Project Manager, TechCo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <p>I offer a range of services to help you achieve the results you’re after. Let’s work together to make something great!</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="icons/web-development.svg" alt="Web Development">
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and dynamic websites tailored to your needs using the latest technologies.</p>
+                </div>
+    
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="icons/ui-ux-design.svg" alt="UI/UX Design">
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing user-friendly interfaces and experiences to ensure your website is both beautiful and functional.</p>
+                </div>
+    
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="icons/seo.svg" alt="SEO Optimization">
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>Improving your website’s visibility on search engines to attract more visitors and grow your business.</p>
+                </div>
+    
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="icons/content-creation.svg" alt="Content Creation">
+                    </div>
+                    <h3>Content Creation</h3>
+                    <p>Creating engaging and relevant content that resonates with your audience and drives engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Your Name</h3>
+                    <p>Building modern, user-friendly websites.</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                    <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+                </div>
+            </div>
+    
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
